@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color:rgb(7, 94, 65);
+    font-family: 'Share Tech Mono', monospace;
+}
+
+h2 {
+    color: rgb(51, 182, 138);
+    font-family: 'Share Tech Mono', monospace;
+}
+
+h3 {
+    color:rgb(28, 187, 139);    
+}
+
+h4 {
+    color: rgb(56, 134, 110);
+}
+
+p {
+    color: rgb(99, 143, 125);
+}
+
+header {
+    background-color: rgb(185, 245, 225);
+}
+
+header img{
+    height: 20px;
+}
+
+header a{
+    text-decoration:none;
+    padding-right: 25px;
+    display: inline-flex;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+header nav li {
+    display: inline;
+    flex-wrap: wrap;
+    background-color: none;
+    align-items: end;
+}
+
+.container {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container p {
+    align-items: flex-start;
+    max-width: 75%;
+    padding-left: 25px;
+}
+
+section .container h2 {
+    padding-left: 25px;
+}
+
+section .container img {
+    height: 300px;
+}
+
+#contact .container {
+    display: block;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 1px;
+}
+
+form textarea {
+    resize:none ;
+}
+
+#contact{
+    background-color: rgb(185, 245, 225);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 0 10px; 
+}
+section div{
+    padding: 0 20px;
+}
+.social a {
+    text-decoration: none;
+    display: flex;
+}
+
+.social img {
+    height: 20px;
+}
+
+div .contact{
+    padding-bottom:  25px;
+}
+
+footer {
+    background-color: rgb(185, 245, 225);
+}
+
+footer a {
+    padding:10px 0 0 20px ;
+    font-family: 'Share Tech Mono', cursive;
+}
+
+footer h3 {
+    font-family: 'Anton', 25px;
+}
